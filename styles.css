@@ -1,0 +1,109 @@
+body {
+    background-image: url("netflixbackground.jpg");
+    color: white;
+  }
+  
+
+* {
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  h3{
+    text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 25px;
+  /* margin-bottom: 12px; */
+  }
+
+#name,
+#age,
+#email,
+#content {
+  margin-top: 14px;
+  height: 20px;
+  width: 400px;
+  padding: 8px;
+}
+
+
+#container {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* margin: 30px 100px; */
+}
+
+#heading{
+  font-family: "Bowlby One SC", cursive;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+span {
+  color: red;
+} 
+
+
+#signin{
+    width: 500px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px;
+}
+
+select {
+    box-sizing: content-box;
+  }
+  
+  .box {
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+
+  #submit {
+    background-color: red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin: 15px 0px 30px 150px;
+  }
+
+  #submit:hover {
+    background-color: white;
+    color: red;
+  }
+
+
+  .checkbox{
+    margin-top: 14px;
+    margin-left: 20px;
+  }
+
+  input[type="checbox"]{
+    margin-top: 14px;
+    margin-left: 20px;
+  }
+
+  .checkbox label{
+     display: inline-block;
+     
+  }
+
+  #container{
+    align-content: center;
+  }
+
+  #section1,
+  #section2,
+  #section3,
+  #section_1,
+  #section_2,
+  #section_3{
+    margin-left: 25px;
+  }
+

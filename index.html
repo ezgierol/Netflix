@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="container">
+        <h1 id="heading">NET<span id="flix">FLIX</span></h1>
+        <h3 class="description">
+            Thank you for signing up at Netflix. Tell us more about yourself.
+        </h3>
+        <form id="signin">
+            <div class="box">
+                <label class="name" for="name">Name</label>
+                <input type="text" id="name" name="scales" placeholder="Enter Your Name" required>
+            </div>
+            <div class="box">
+                <label class="age" for="age">Age</label><br />
+                <input type="text" id="age" name="scales" placeholder="Age" required>
+            </div>
+            <div class="box">
+                <label class="email" for="email">E-mail</label>
+                <input type="text" id="email" name="scales" placeholder="example@netflix.com" required>
+            </div>
+            <div class="box">
+                <label class="content" for="content">Content Type</label><br />
+                <select name="content" id="content">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                </select>
+
+
+            </div><br />
+            <div class="checkbox">
+                <label class="checkbox">Movie Type</label><br />
+
+                <label for="section1"></label>
+                <label><input type="checkbox" id="section1" name="movie1" value="Comedy"/>Comedy</label><br />      
+                
+                <label for="section2"></label>
+                <label><input type="checkbox" id="section2" name="movie2" value="Action"/>Action</label><br />      
+
+                <label for="section3"></label>
+                <label><input type="checkbox" id="section3" name="movie3" value="Romance"/>Romance</label><br />
+            </div><br />
+
+
+
+            <div class="checkbox">
+                <label class="checkbox">Gender</label><br />
+
+                <label for="section_1"></label>
+                <label><input type="checkbox" id=section_1 name="gender1" value="male"/>Male</label><br />
+
+                <label for="section_2"></label>
+                <label><input type="checkbox" id=section_2 name="gender2" value="female"/>Female</label><br />
+
+                <label for="section_3"></label>
+                <label><input type="checkbox" id=section_3 name="gender3" value="other"/>Other</label><br />
+            </div><br />
+
+
+            <div class="box textarea">
+                <label for="feedback" id="feedback">Feedback</label><br />
+                <textarea name="feedback" id="feedback" cols="55" rows="10" placeholder="Enter Your Comment" style="resize: none"></textarea><br />
+                    </div>
+                <input type="submit" value="Send" id="submit" />
+        </form>
+    </div>
+
+
+</body>
+
+</html>
